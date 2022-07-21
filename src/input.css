@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .card-heading {
+      @apply block text-[#2b5876] mt-1 pb-2 text-xl leading-tight font-semibold;
+    }
+    .skill-pill {
+      @apply text-xs py-1 px-2.5 mb-2 text-white rounded-full inline-block;
+    }
+    .sky {
+      @apply bg-sky-700
+    }
+
+    .lime {
+      @apply bg-lime-600
+    }
+  }
+
+  .slented-footer {
+      /* clip-path: polygon(0 4vw,100% 0,100% 100%,0 100%); */
+      clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0% 100%);
+  }
+  
